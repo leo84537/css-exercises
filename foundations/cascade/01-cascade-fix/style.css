@@ -4,17 +4,23 @@ body {
 
 .para,
 .small-para {
-  color: hsl(0, 0%, 0%);
-  font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
+  color: hsl(0, 0.00%, 0.00%);
   font-weight: 800;
 }
 
 .para {
   font-size: 22px;
+}
+
+.small-para {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
 .confirm {
@@ -23,20 +29,15 @@ body {
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+
+.text {
+  color: rgb(1, 1, 1);
   font-size: 20px;
 }
 
 .child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
+  color: rgb(168, 21, 21);
+  font-weight: 900;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
